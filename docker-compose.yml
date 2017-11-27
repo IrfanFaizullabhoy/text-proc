@@ -1,0 +1,6 @@
+version: '2'
+services:
+  text-proc:
+    build:
+      context: .
+      dockerfile: conf/Dockerfile
